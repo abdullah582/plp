@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+   integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+    />
+    <title>Nature Friendly</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="logo">
+                <img src="LogoMakr.png"
+                alt="Nature Friendly Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how">How it Works?</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container"></div>
+
+            <section class="hero">
+                <h2>Handcrafted, Nature-Friendly masterpieces</h2>
+                <form id="form">
+                    <input type="email" name="email" id="email" placeholder="Enter Email!" required>
+                    <input type="submit" id="submit" value="Get Started" class="btn">
+                </form>
+            </section>
+
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                     <div class="desc">
+                         <h2>Eco-Friendly Materials</h2>
+                         <p>Our products are made from sustainable,
+                            environmentally friendly materials.
+                         </p>
+                    </div>
+                </div>
+                <div class="grid">
+                        <div class="icon">
+                        <i class="fas fa-star"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Premium Quality</h2>
+                            <p>Each piece is crafted with care to ensure the highest quality standards.</p>
+                        </div>
+                </div>        
+                <div class="grid">
+                        <div class="icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Fast Shipping</h2>
+                            <p>We ensure quick and efficient delivery of your nature-friendly products.</p>
+                        </div>    
+                </div>
+            </section>
+
+            <section id="how">
+                <iframe 
+                id="video" 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="YouTube video player"
+                allowfullscreen 
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                style="border: 0;">
+                </iframe>                  
+            </section>
+
+            <section id="Pricing">
+                <div class="product" id="product-basic">
+                    <div class="level">
+                        <h3>Basic</h3>
+                    </div>
+                    <h2>$19.99</h2>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <button class="btn" aria-label="Select Basic Plan">Select</button>
+                 </div>   
+                 <div class="product" id="product-standard">
+                    <div class="level">
+                        <h3>Standard</h3>
+                    </div>
+                    <h2>$29.99</h2>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <button class="btn" aria-label="Select Standard Plan">Select</button>
+                 </div>   
+                 <div class="product" id="product-premium">
+                    <div class="level">
+                        <h3>Premium</h3>
+                    </div>
+                    <h2>$39.99</h2>
+                    <ul>
+                        <li>Feature 1</li>
+                        <li>Feature 2</li>
+                        <li>Feature 3</li>
+                        <li>Feature 4</li>
+                    </ul>
+                    <button class="btn" aria-label="Select Premium Plan">Select</button>
+                 </div>                    
+            </section>
+            
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li> 
+                </ul>
+                <p>&copy; <span id="current-year"></span> Nature Friendly. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>    
+</body>
+</html>
